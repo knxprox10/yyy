@@ -191,7 +191,7 @@ const StyledWrapper = styled.div`
 
   .card .image-container .price {
     position: absolute;
-    right: 0.7rem;
+    left: 0.7rem;
     bottom: -1rem;
     background: white;
     color: var(--accent-color);
