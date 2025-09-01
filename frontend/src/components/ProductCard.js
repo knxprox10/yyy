@@ -80,7 +80,7 @@ const ProductCard = () => {
           </svg>
         </label>
         <div className="content">
-          <div className="brand">ADIDAS</div>
+          <div className="brand">بطائق إلكترونية مسبقة الدفع</div>
           <div className="product-name">Classic oversized hoodie</div>
           <div className="color-size-container">
             <div className="colors">
