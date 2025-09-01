@@ -219,13 +219,14 @@ const StyledWrapper = styled.div`
   }
 
   .card .favorite input:checked ~ svg {
-    animation: checkmark-bounce 0.3s;
+    animation: circle-bounce 0.3s;
     fill: #22c55e;
-    filter: drop-shadow(0px 2px 2px rgba(34, 197, 94, 0.3));
+    filter: drop-shadow(0px 2px 3px rgba(34, 197, 94, 0.4));
   }
 
   .card .favorite svg {
-    fill: #9ca3af;
+    fill: #d1d5db;
+    transition: all 0.2s ease;
   }
 
   .card .content {
