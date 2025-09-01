@@ -82,6 +82,11 @@ const ProductCard = () => {
         <div className="content">
           <div className="brand">بطائق إلكترونية مسبقة الدفع</div>
           <div className="product-name">بطاقة دفع رقمية جاهزة للاستخدام الفوري</div>
+          <div className="loading-indicator">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </div>
           <div className="color-size-container">
             <div className="colors">
               Color
