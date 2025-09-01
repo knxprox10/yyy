@@ -171,7 +171,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     height: 130px;
     border-radius: 0.7rem;
-    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
     margin-bottom: 1rem;
   }
 
