@@ -236,6 +236,7 @@ const StyledWrapper = styled.div`
   .card .content .brand {
     font-weight: 900;
     color: #a6a6a6;
+    text-align: right;
   }
 
   .card .content .product-name {
@@ -243,6 +244,7 @@ const StyledWrapper = styled.div`
     color: #666666;
     font-size: 0.7rem;
     margin-bottom: 1rem;
+    text-align: right;
   }
 
   .card .content .color-size-container {
