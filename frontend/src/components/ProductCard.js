@@ -81,7 +81,7 @@ const ProductCard = () => {
         </label>
         <div className="content">
           <div className="brand">بطائق إلكترونية مسبقة الدفع</div>
-          <div className="product-name">Classic oversized hoodie</div>
+          <div className="product-name">بطاقة دفع رقمية جاهزة للاستخدام الفوري</div>
           <div className="color-size-container">
             <div className="colors">
               Color
