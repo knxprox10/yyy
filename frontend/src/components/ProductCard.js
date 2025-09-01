@@ -414,12 +414,12 @@ const StyledWrapper = styled.div`
     transform: scale(1.03);
   }
 
-  @keyframes checkmark-bounce {
+  @keyframes circle-bounce {
     0% {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.2);
+      transform: scale(1.3);
     }
     100% {
       transform: scale(1);
