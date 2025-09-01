@@ -163,6 +163,7 @@ const StyledWrapper = styled.div`
     padding: 0.3rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 50px 30px -20px;
     transition: all 0.5s ease-in-out;
+    direction: rtl;
   }
 
   .card .image-container {
