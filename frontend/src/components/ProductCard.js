@@ -89,7 +89,6 @@ const ProductCard = () => {
           </div>
           <div className="color-size-container">
             <div className="colors">
-              Color
               <ul className="colors-container">
                 <li className="color"><a href="#" /> <span className="color-name">Collegiate Gold</span></li>
                 <li className="color active"><a href="#" /><span className="color-name">Team Navy</span></li>
