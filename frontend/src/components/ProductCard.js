@@ -448,6 +448,17 @@ const StyledWrapper = styled.div`
     transform: scale(1.03);
   }
 
+  @keyframes typing-dots {
+    0%, 80%, 100% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+    40% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+
   @keyframes circle-bounce {
     0% {
       transform: scale(1);
