@@ -328,55 +328,27 @@ const StyledWrapper = styled.div`
     margin-top: 0.2rem;
   }
 
-  .card .content .color-size-container .colors .colors-container .color {
-    height: 14px;
+  .card .content .color-size-container .colors .colors-container .payment-card {
+    height: 18px;
     position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
   }
 
-  .card .content .color-size-container .colors .colors-container .color:hover .color-name {
-    display: block;
+  .card .content .color-size-container .colors .colors-container .payment-card:hover {
+    transform: scale(1.1);
   }
 
-  .card .content .color-size-container .colors .colors-container .color a {
-    display: inline-block;
+  .card .content .color-size-container .colors .colors-container .payment-card .card-icon {
     height: 100%;
-    aspect-ratio: 1;
-    border: 3px solid black;
-    border-radius: 50%;
+    width: auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
 
-  .card .content .color-size-container .colors .colors-container .color .color-name {
-    display: none;
-    position: absolute;
-    bottom: 125%;
-    right: 50%;
-    transform: translateX(50%);
-    z-index: 99;
-    background: black;
-    padding: 0.2rem 1rem;
-    border-radius: 1rem;
-    text-align: center;
-    color: white;
-  }
-
-  .card .content .color-size-container .colors .colors-container .color:first-child a {
-    border-color: #ffd426;
-  }
-
-  .card .content .color-size-container .colors .colors-container .color:nth-child(2) a {
-    background: #144076;
-  }
-
-  .card .content .color-size-container .colors .colors-container .color:nth-child(3) a {
-    border-color: #00b9ff;
-  }
-
-  .card .content .color-size-container .colors .colors-container .color:nth-child(4) a {
-    border-color: #ff6ba1;
-  }
-
-  .card .content .color-size-container .colors .colors-container .active {
-    border-color: black;
+  .card .content .color-size-container .colors .colors-container .payment-card.active .card-icon {
+    border: 2px solid #22c55e;
+    box-shadow: 0 0 0 1px #22c55e, 0 2px 4px rgba(34, 197, 94, 0.3);
   }
 
   .card .content .color-size-container .sizes .size-container {
