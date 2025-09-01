@@ -90,11 +90,32 @@ const ProductCard = () => {
           <div className="color-size-container">
             <div className="colors">
               <ul className="colors-container">
-                <li className="color"><a href="#" /> <span className="color-name">Collegiate Gold</span></li>
-                <li className="color active"><a href="#" /><span className="color-name">Team Navy</span></li>
-                <li className="color"><a href="#" /><span className="color-name">Pulse Blue</span></li>
-                <li className="color"><a href="#" /><span className="color-name">Pink Fusion</span></li>
-                +2
+                <li className="payment-card visa">
+                  <svg viewBox="0 0 40 24" className="card-icon">
+                    <rect width="40" height="24" rx="4" fill="#1434CB"/>
+                    <text x="20" y="16" textAnchor="middle" fill="white" fontSize="8" fontFamily="Arial, sans-serif" fontWeight="bold">VISA</text>
+                  </svg>
+                </li>
+                <li className="payment-card mastercard active">
+                  <svg viewBox="0 0 40 24" className="card-icon">
+                    <rect width="40" height="24" rx="4" fill="#EB001B"/>
+                    <circle cx="15" cy="12" r="7" fill="#FF5F00"/>
+                    <circle cx="25" cy="12" r="7" fill="#F79E1B"/>
+                    <path d="M20 6c1.5 1.5 2.5 3.5 2.5 6s-1 4.5-2.5 6c-1.5-1.5-2.5-3.5-2.5-6s1-4.5 2.5-6z" fill="#FF5F00"/>
+                  </svg>
+                </li>
+                <li className="payment-card google">
+                  <svg viewBox="0 0 40 24" className="card-icon">
+                    <rect width="40" height="24" rx="4" fill="#4285F4"/>
+                    <text x="20" y="16" textAnchor="middle" fill="white" fontSize="6" fontFamily="Arial, sans-serif" fontWeight="bold">Google</text>
+                  </svg>
+                </li>
+                <li className="payment-card paypal">
+                  <svg viewBox="0 0 40 24" className="card-icon">
+                    <rect width="40" height="24" rx="4" fill="#003087"/>
+                    <text x="20" y="16" textAnchor="middle" fill="white" fontSize="6" fontFamily="Arial, sans-serif" fontWeight="bold">PayPal</text>
+                  </svg>
+                </li>
               </ul>
             </div>
             <div className="sizes">
