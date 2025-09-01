@@ -204,10 +204,10 @@ const StyledWrapper = styled.div`
 
   .card .favorite {
     position: absolute;
-    width: 19px;
-    height: 19px;
-    top: 5px;
-    left: 5px;
+    width: 14px;
+    height: 14px;
+    top: 8px;
+    left: 8px;
     cursor: pointer;
   }
 
