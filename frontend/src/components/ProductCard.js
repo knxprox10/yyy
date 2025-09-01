@@ -207,7 +207,7 @@ const StyledWrapper = styled.div`
     width: 19px;
     height: 19px;
     top: 5px;
-    right: 5px;
+    left: 5px;
     cursor: pointer;
   }
 
