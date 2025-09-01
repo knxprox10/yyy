@@ -294,13 +294,14 @@ const StyledWrapper = styled.div`
     display: none;
     position: absolute;
     bottom: 125%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     z-index: 99;
     background: black;
     padding: 0.2rem 1rem;
     border-radius: 1rem;
     text-align: center;
+    color: white;
   }
 
   .card .content .color-size-container .colors .colors-container .color:first-child a {
